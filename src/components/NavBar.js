@@ -10,28 +10,37 @@ export default function NavBar(){
     return(
         <div className='navGrid'>
             <div className='navElement1'>
+                
                 <span onClick={()=> scroll.scrollTo(1, {duration: 1500})}>My Page</span>
             </div>
             <div className='navElement2'>
-            <span onClick={()=> scroll.scrollTo(1, {duration: 1500})}>About Me</span>
+            <Link to='about' smooth={true} duration={1500} offset={-30}>
+            <span>About Me</span>
+            </Link>
                 <button>
                     <InfoIcon/>
                 </button>
             </div>
             <div className='navElement3'>
-            <span onClick={()=> scroll.scrollTo(800,{duration: 1500})}>Skills</span>
+            <Link to='skills' smooth={true} duration={1500} offset={-30}>
+            <span>Skills</span>
+            </Link>
                 <button>
                     <LaptopMacIcon/>
                 </button>
             </div>
             <div className='navElement4'>
-            <span onClick={()=> scroll.scrollTo(1730,{duration: 1500})}>Projects</span>
+            <Link to='projects' smooth={true} duration={1500} offset={-30}>
+            <span>Projects</span>
+            </Link>
                 <button>
                     <WorkIcon/>
                 </button>
             </div>
             <div className='navElement5'>
-            <span onClick={()=> scroll.scrollTo(3000, {duration: 1500})}>Contact Me</span>
+            <Link to='contact' smooth={true} duration={1500} offset={-30}>
+            <span>Contact Me</span>
+            </Link>
                 <button>
                     <ContactPhoneIcon/>
                 </button>

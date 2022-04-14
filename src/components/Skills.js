@@ -5,7 +5,7 @@ import '../scss/components/Skills.scss';
 
 export default function Skills(){
     return(
-        <div className='skillsGrid'>
+        <div className='skillsGrid' id='skills'>
             <div className='skillsContainer'>
                 {skills?.map( (S,i )=> 
                     <SkillCard

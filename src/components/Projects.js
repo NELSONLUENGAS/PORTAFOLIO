@@ -6,7 +6,7 @@ import '../scss/components/Projects.scss';
 
 export default function Projects(){
     return(
-        <div className='projectGrid'>
+        <div className='projectGrid' id='projects'>
             <div className='projectContainer'>
                 <div className='project'>
                 <img src={image} alt='icono1'/>

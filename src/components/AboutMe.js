@@ -6,7 +6,7 @@ import '../scss/components/AboutMe.scss';
 
 export default function AboutMe(){
     return(
-        <div className='aboutGrid'>
+        <div className='aboutGrid' id='about'>
             <div className='aboutContainer'>
                 <div className='aboutElement1'>
                     <img src={profile} alt='profile'/>
