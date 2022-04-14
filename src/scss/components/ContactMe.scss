@@ -1,0 +1,170 @@
+.contactGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    padding: 5rem 2rem 2rem 2rem;
+    .contactContainer{
+        grid-column: 1 / 5;
+        background-color: #000000a4;;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        border: none;
+        box-shadow: 
+        0px 2px 1px -1px rgb(0 0 0 / 20%), 
+        0px 1px 1px 0px rgb(0 0 0 / 14%), 
+        0px 1px 3px 0px rgb(0 0 0 / 12%);
+        .contactElement1{
+            grid-column: 1 / 5;
+            display: flex;
+            color: white;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            justify-content: center;
+            background-color: transparent;
+        }
+        .contactForm{
+            grid-column: 1 / 5;
+            display: flex;
+            padding: 2rem;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            justify-content: center;
+            background-color: transparent;
+            textarea{
+                width:60%;
+                font-size: 1.1rem;
+                outline: none;
+                border-radius: 1rem;
+                padding: 0.5rem;
+            }
+            button{
+                width: 5rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                background-color: #6bb814a4;
+                border: none;
+                border-radius: 0.5rem;
+                color: white;
+                padding: 0.3rem;
+                margin: 1rem;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    background-color: #6bb814;
+                }
+            }
+        }
+        .social{
+            grid-column: 1 / 5;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: transparent;
+            .whatsApp{
+                background-color: #25d366a4;
+                border-radius: 1rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                padding: 0.5rem;
+                margin: 0.5rem;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    background-color: #25d366;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .gmail{
+                background-color: #d3252ea4;
+                border-radius: 1rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                padding: 0.5rem;
+                margin: 0.5rem;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    background-color: #d3252e;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .linkedIn{
+                background-color: #255cd3a4;
+                border-radius: 1rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                padding: 0.5rem;
+                margin: 0.5rem;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    background-color: #255cd3;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .gitHub{
+                background-color: #b025d3a4;
+                border-radius: 1rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                padding: 0.5rem;
+                margin: 0.5rem;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                    background-color: #b025d3;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .copyRight{
+            grid-column: 1/5;
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+}

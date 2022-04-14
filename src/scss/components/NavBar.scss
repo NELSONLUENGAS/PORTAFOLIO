@@ -1,0 +1,145 @@
+.navGrid{
+    display: grid;
+    z-index: 1;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1.5rem 0rem 0rem 0rem;
+    background-color: #1f2f63;
+    position: fixed;
+    width: 100%;
+    font-weight: 700;
+    box-shadow: 
+    0px 2px 1px -1px rgb(0 0 0 / 20%), 
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 
+    0px 1px 3px 0px rgb(0 0 0 / 12%);
+    .navElement1{
+        grid-column: 1/2;
+        display: flex;
+        justify-content: left;
+        padding-left: 10%;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        span{
+            &:hover{
+                text-decoration: underline dotted;
+            }
+        }
+    }
+    .navElement2{
+        grid-column: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        span{
+            &:hover{
+                text-decoration: underline dotted;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border: none;
+            background-color: transparent;
+            width: 2rem;
+
+            svg{
+                font-size: 1.8rem;
+                color: beige;
+            }
+        }
+    }
+    .navElement3{
+        grid-column: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        span{
+            &:hover{
+                text-decoration: underline dotted;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border: none;
+            background-color: transparent;
+            width: 2rem;
+
+            svg{
+                font-size: 1.8rem;
+                color: beige;
+            }
+        }
+    }
+    .navElement4{
+        grid-column: 4/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        span{
+            &:hover{
+                text-decoration: underline dotted;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border: none;
+            background-color: transparent;
+            width: 2rem;
+
+            svg{
+                font-size: 1.8rem;
+                color: beige;
+            }
+        }
+    }
+    .navElement5{
+        grid-column: 5/6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+        cursor: pointer;
+        span{
+            &:hover{
+                text-decoration: underline dotted;
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border: none;
+            background-color: transparent;
+            width: 2rem;
+
+            svg{
+                font-size: 1.8rem;
+                color: beige;
+            }
+        }
+    }
+    .navElement6{
+        grid-column: 1 / 6;
+        min-height: 0.3rem;
+        background-color: #00ff62;
+    }
+}

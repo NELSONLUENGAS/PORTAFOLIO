@@ -1,0 +1,61 @@
+.projectGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    padding: 5rem 2rem 2rem 2rem;
+    .projectContainer{
+        grid-column: 1 / 5;
+        background-color: #000000a4;;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 1rem;
+        border: none;
+        box-shadow: 
+        0px 2px 1px -1px rgb(0 0 0 / 20%), 
+        0px 1px 1px 0px rgb(0 0 0 / 14%), 
+        0px 1px 3px 0px rgb(0 0 0 / 12%);
+        &:hover{
+            transform: scale(0.99);
+            transition: 0.5s;
+            box-shadow: 
+            0px 2px 1px -1px rgb(0 0 0 / 20%), 
+            0px 1px 1px 0px rgb(0 0 0 / 14%), 
+            0px 1px 3px 0px rgb(0 0 0 / 12%), 
+            0px 4px 5px 0px rgb(0 0 0 / 20%);
+        }
+        .project{
+            width: 48%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            img{
+                border-radius: 0.5rem;
+                width: 100%
+            }
+            button{
+                background-color: transparent;
+                border: none;
+                width: 3rem;
+                height: 3rem;
+                margin: 0.5rem;
+                border-radius: 50%;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg{
+                    font-size: 2rem;
+                    color: beige;
+                }
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 0.5s;
+                    background-color: #a72626a4;
+                }
+            }
+        }
+    }
+}
