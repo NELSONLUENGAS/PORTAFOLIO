@@ -6,9 +6,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
 import '../scss/components/Projects.scss';
 
-export default function Projects({id}){
+export default function Projects(){
     return(
-        <div className='projectGrid' id={id}>
+        <div className='projectGrid' id='projects'>
             <div className='projectContainer'>
                 <div className='project'>
                 <img src={image} alt='icono1'/>
