@@ -33,7 +33,7 @@ export default function Projects(){
                 <button onClick={()=> window.location.href = 'https://github.com/NELSONLUENGAS/PORTAFOLIO'}>
                     <GitHubIcon/>
                 </button>
-                <button onClick={()=> window.location.href = 'https://portafolio-6mdiwit0b-nelsonluengas.vercel.app/'}>
+                <button onClick={()=> window.location.href = 'https://portafolio-a3arclg24-nelsonluengas.vercel.app'}>
                     <LanguageIcon/>
                 </button>
                 </div>
