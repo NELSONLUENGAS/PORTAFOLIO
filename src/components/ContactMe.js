@@ -45,7 +45,7 @@ export default function ContactMe(){
             </button>
         </div>
         </div>
-        <div className='copyRight'> Nelson Andrés Luengas Silva - 2022   ©️ CopyRigth</div>
+        <div className='copyRight'> Nelson Andrés Luengas Silva - 2022   ©️ CopyRight</div>
         </div>
     </div>
     )
