@@ -47,5 +47,9 @@ const skills = [
         name: 'PostgreSQL',
         image: 'https://th.bing.com/th/id/R.204806b11c28ba050a5c4dba44a2556a?rik=7etmRXll1B9hHQ&pid=ImgRaw&r=0'
     },
+    {
+        name: 'Heroku',
+        image: 'https://www.drupal.org/files/issues/2019-12-11/heroku-logo-solid-purple_0.png'
+    },
 ]
 export default skills;
