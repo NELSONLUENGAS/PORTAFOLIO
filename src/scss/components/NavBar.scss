@@ -1,27 +1,28 @@
 .navGrid{
     display: grid;
     z-index: 1;
+    margin-left: 1vw;
     grid-template-columns: repeat(5, 1fr);
-    padding: 1.5rem 0rem 0rem 0rem;
-    background-color: #1f2f63;
-    position: fixed;
-    width: 100%;
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    padding: 1vw;
+    background-color: #000;
+    width: calc(100% - 4vw);
+    text-transform: uppercase;
+    font-style: italic;
     font-weight: 700;
-    box-shadow: 
-    0px 2px 1px -1px rgb(0 0 0 / 20%), 
-    0px 1px 1px 0px rgb(0 0 0 / 14%), 
-    0px 1px 3px 0px rgb(0 0 0 / 12%);
+    box-shadow: inset 0 0 1vw 0 #fff;
     .navElement1{
         grid-column: 1/2;
         display: flex;
         justify-content: left;
-        padding-left: 10%;
-        font-size: 1.5rem;
+        padding-left: 2vw;
+        font-size: 1.8vw;
         color: white;
         cursor: pointer;
         span{
             &:hover{
-                text-decoration: underline dotted;
+                color: rgb(211, 211, 211);
             }
         }
     }
@@ -30,25 +31,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.8vw;
         color: white;
         cursor: pointer;
         span{
             &:hover{
-                text-decoration: underline dotted;
+                color: rgb(211, 211, 211);
             }
         }
-
         button {
             display: flex;
             justify-content: center;
             align-items: flex-end;
             border: none;
             background-color: transparent;
-            width: 2rem;
-
             svg{
-                font-size: 1.8rem;
+                font-size: 2.2vw;
                 color: beige;
             }
         }
@@ -58,12 +56,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.8vw;
         color: white;
         cursor: pointer;
         span{
             &:hover{
-                text-decoration: underline dotted;
+                color: rgb(211, 211, 211);
             }
         }
 
@@ -73,10 +71,8 @@
             align-items: flex-end;
             border: none;
             background-color: transparent;
-            width: 2rem;
-
             svg{
-                font-size: 1.8rem;
+                font-size: 2.2vw;
                 color: beige;
             }
         }
@@ -86,25 +82,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.8vw;
         color: white;
         cursor: pointer;
         span{
             &:hover{
-                text-decoration: underline dotted;
+                color: rgb(211, 211, 211);
             }
         }
-
         button {
             display: flex;
             justify-content: center;
             align-items: flex-end;
             border: none;
             background-color: transparent;
-            width: 2rem;
-
             svg{
-                font-size: 1.8rem;
+                font-size: 2.2vw;
                 color: beige;
             }
         }
@@ -114,25 +107,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.8vw;
         color: white;
         cursor: pointer;
         span{
             &:hover{
-                text-decoration: underline dotted;
+                color: rgb(211, 211, 211);
             }
         }
-
         button {
             display: flex;
             justify-content: center;
             align-items: flex-end;
             border: none;
             background-color: transparent;
-            width: 2rem;
-
             svg{
-                font-size: 1.8rem;
+                font-size: 2.2vw;
                 color: beige;
             }
         }
@@ -141,5 +131,6 @@
         grid-column: 1 / 6;
         min-height: 0.3rem;
         background-color: #00ff62;
+        display: none;
     }
 }

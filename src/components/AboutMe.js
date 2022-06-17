@@ -19,11 +19,14 @@ export default function AboutMe(){
                 </div>
                 <div className='aboutElement2'>
                     <div>
-                    <h2>Hola soy Nelson Andrés Luengas Silva</h2>
-                    <h8> Desarrollador Full Stack Web Developer con capacidad de trabajar en Front-End como en Back-End,
-                        de forma modularizada y escalable, para generar un mejor trabajo y desarrollo de proyectos en equipo, 
-                        manejando la mejor compresión visual, ordenada y amigable para todos
-                    </h8>
+                    <h2>Hola mi nombre es Nelson Andrés Luengas Silva</h2>
+                    <h6>Soy Desarrollador Web Full Stack con capacidades para trabajar en Front-End como en Back-End,
+                        también puedo trabajar en diferentes tecnologías como React, Node, SQL, etc. Apasionado por la
+                        tecnología y la programación, me gusta aprender nuevas tecnologías y mejorar mis habilidades,
+                        además de la pasión que tengo por la música soy músico profesional. 
+                        En cuanto a relaciones humanas, me gusta trabajar en equipo, soy compañerista, respetuoso 
+                        y con mucha iniciativa. 
+                    </h6>
                     </div>
                 </div>
             </div>

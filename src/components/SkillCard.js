@@ -5,7 +5,7 @@ export default function SkiillCard({name, image}){
     return (
         <div className='skillCardContainer'>
             <img src={image} alt='Icono'/>
-            <h7>{name}</h7>
+            <h6>{name}</h6>
         </div>
     )
 }

@@ -1,31 +1,30 @@
 .skillCardContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 11rem;
-    height: 11rem;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
     cursor: pointer;
     background-color: transparent;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 1vw;
+    // box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     img{
-        width: calc(80% - 1rem );
-        object-fit: cover;
+        width: 15vw;
+        height: 14vw;
     }
-    h7{
-        visibility: hidden;
+    h6{
+        top: -4.5vw;
+        position: absolute;
+        color: #fff;
+        font-size: 2vw;
+        font-weight: bold;
     }
     &:hover{
         transform: scale(1.05);
         transition: 0.3s;
-        background-color: cadetblue;
-        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75), 0px 0px 10px 0px rgba(0,0,0,0.75);
-        h7{
-            color: #fff;
-            font-size: 1.2rem;
-            font-weight: bold;
-            visibility: visible;
-        }
+        // background-color: cadetblue;
+        // box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75), 0px 0px 10px 0px rgba(0,0,0,0.75);
     }
 }

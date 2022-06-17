@@ -10,11 +10,10 @@ export default function NavBar(){
     return(
         <div className='navGrid'>
             <div className='navElement1'>
-                
                 <span onClick={()=> scroll.scrollTo(1, {duration: 1500})}>My Page</span>
             </div>
             <div className='navElement2'>
-            <Link to='about' smooth={true} duration={1500} offset={-30}>
+            <Link to='about' smooth={true} duration={1500} offset={50}>
             <span>About Me</span>
             </Link>
                 <button>
@@ -22,15 +21,15 @@ export default function NavBar(){
                 </button>
             </div>
             <div className='navElement3'>
-            <Link to='skills' smooth={true} duration={1500} offset={-30}>
-            <span>Skills</span>
+            <Link to='skills' smooth={true} duration={1500} offset={10}>
+            <span>Technologies</span>
             </Link>
                 <button>
                     <LaptopMacIcon/>
                 </button>
             </div>
             <div className='navElement4'>
-            <Link to='projects' smooth={true} duration={1500} offset={-30}>
+            <Link to='projects' smooth={true} duration={1500} offset={10}>
             <span>Projects</span>
             </Link>
                 <button>
