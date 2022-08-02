@@ -4,23 +4,40 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LanguageIcon from '@mui/icons-material/Language';
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 import '../scss/components/Projects.scss';
-import { next, prev } from '../utils/projectsAction';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/scss";
+import "swiper/scss/effect-cube";
+import "swiper/scss/pagination";
+import { EffectCube, Pagination, Autoplay } from "swiper";
+
 
 export default function Projects(){
-    setInterval(()=>{
-        prev()
-    }, 10000)
     return(
-        <div className='projectGrid' id='projects'>
-            <div className='projectContainer'>
-                <p>Projects</p>
-                <button className="prevPro" onClick={event => prev(event)}><MdOutlineArrowBackIos/></button>
-                <button className='nextPro' onClick={event => next(event)}><MdOutlineArrowForwardIos/></button>
-                <div className="projectBody">
-                        {arrayProjects?.length ?
+        <div id='projects' className='projects'>
+            <div className='project-polygon-1'>
+                <span>Ver Código</span>
+                <span>Ver Página Web</span>
+            </div>
+            <Swiper
+                effect={"cube"}
+                grabCursor={true}
+                loop={true}
+                cubeEffect={{
+                    shadowScale: 0.5,
+                }}
+                autoplay={{
+                    delay: 10000
+                }}
+                pagination={{
+                    clickable: true
+                }}
+                modules={[EffectCube, Pagination, Autoplay]}
+                className="mySwiper"
+            >
+                {arrayProjects?.length &&
                             arrayProjects.map( project =>
-                                    <div key={project.id} className='project'>
-                                        <img src={project.image} alt='project'/>
+                                    <SwiperSlide>
+                                        <img src={project.image} alt="" />
                                         <a href={project.gitHub} target='_blank' rel='noreferrer'>
                                             <button className='gitHubPro' >
                                                 <GitHubIcon/>
@@ -31,11 +48,9 @@ export default function Projects(){
                                                 <LanguageIcon/>
                                             </button>
                                         </a>
-                                    </div>
-                            )
-                        : null}
-                </div>
-            </div>
+                                    </SwiperSlide>
+                            )}
+            </Swiper>
         </div>
     )
 }

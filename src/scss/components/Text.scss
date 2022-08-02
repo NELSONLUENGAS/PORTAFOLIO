@@ -1,0 +1,59 @@
+.text-container{
+    position: relative;
+    .text{
+        &-polygon{
+            border: none;
+            height: 50vw;
+            background-image: radial-gradient(circle, #0b525b, #0c4c59, #104556, #163f52, #1b384d, #1e354c, #21314a, #252d48, #2a2b4a, #30274a, #372449, #3e1f47);
+            clip-path: polygon(0 0, 0% 0, 49% 29%, 100% 82%, 100% 100%, 0 100%);
+        }
+        &-1{
+            position: absolute;
+            z-index: 3;
+            top: 0vw;
+            right: 0;
+            font-size: 2vw;
+            font-family: 'Prompt', sans-serif;
+            width: 70vw;
+            font-style: italic;
+            padding: 1.5vw;
+            text-align: right;
+        }
+        &-2{
+            position: absolute;
+            z-index: 3;
+            top: 25vw;
+            left: 2vw;
+            font-size: 2vw;
+            font-family: 'Prompt', sans-serif;
+            width: 60vw;
+            font-style: italic;
+            padding: 1.5vw;
+            color: #fff;
+        }
+        &-3{
+            position: absolute;
+            z-index: 3;
+            top: 6vw;
+            right: 0;
+            font-size: 2vw;
+            font-family: 'Prompt', sans-serif;
+            width: 50vw;
+            font-style: italic;
+            padding: 1.5vw;
+            text-align: right;
+        }
+        &-4{
+            position: absolute;
+            z-index: 3;
+            top: 12vw;
+            right: 0;
+            font-size: 2vw;
+            font-family: 'Prompt', sans-serif;
+            width: 38vw;
+            font-style: italic;
+            padding: 1.5vw;
+            text-align: right;
+        }
+    }
+}
