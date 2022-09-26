@@ -5,6 +5,7 @@ import image3 from '../images/1.jpeg';
 import image4 from '../images/urban.jpeg';
 import image5 from '../images/airline.jpeg';
 import image6 from '../images/image6.jpeg';
+import image7 from '../images/image7.jpeg';
 
 
 
@@ -50,5 +51,11 @@ export const arrayProjects = [
         image: image6,
         gitHub:'https://github.com/NELSONLUENGAS/donGustositoShop',
         web: 'https://don-gustosito-shop.vercel.app'
+    },
+    {
+        id: 8,
+        image: image7,
+        gitHub:'https://github.com/NELSONLUENGAS/Shop_Angular',
+        web: 'https://shop-angular-shop-ecommerce-angular-n93j.vercel.app'
     },
 ]
